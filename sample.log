@@ -1,6 +1,2 @@
-INFO: Server started successfully
-WARNING: High memory usage detected
-ERROR: Failed to connect to database
-INFO: Retrying connection
-ERROR: Timeout occurred
-WARNING: Disk space low
+2025-02-18 10:00:01 [ERROR] Database connection timed out after 30s
+2025-02-18 10:00:02 [FATAL] Payment service failed to reach database at 10.0.0.5:5432
