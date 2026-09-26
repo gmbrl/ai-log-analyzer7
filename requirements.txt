@@ -1,2 +1,16 @@
-requests==2.31.0
-python-dotenv==1.0.0
+streamlit>=1.35.0
+pandas>=2.2.0
+plotly>=5.22.0
+openai>=1.30.0
+anthropic>=0.28.0
+python-dotenv>=1.0.0
+httpx>=0.27.0
+pydantic>=2.7.0
+regex>=2024.4.16
+python-dateutil>=2.9.0
+altair>=5.3.0
+# Dashboard API — versions chosen to satisfy both fastapi and streamlit 1.64.x
+fastapi>=0.115.0
+starlette>=0.46.0,<2
+websockets>=12.0,<17
+uvicorn[standard]>=0.30.0
